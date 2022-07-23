@@ -1,0 +1,62 @@
+ /*
+    var floatingButtons = <UnicornButton>[];
+    floatingButtons.add(
+      UnicornButton(
+        hasLabel: true,
+        labelText: "Insta-1",
+        currentButton: FloatingActionButton(
+          heroTag: "attachment",
+          backgroundColor: Colors.deepOrangeAccent,
+          mini: true,
+          child: Icon(Icons.link),
+          onPressed: () async {
+            const url = "https://www.instagram.com/divineindra/";
+            if (await canLaunch(url)) {
+              await launch(url);
+            } else {
+              throw 'could not launch';
+            }
+          },
+        ),
+      ),
+    );
+    floatingButtons.add(
+      UnicornButton(
+        hasLabel: true,
+        labelText: "Insta-2",
+        currentButton: FloatingActionButton(
+          onPressed: () async {
+            const url = "https://www.instagram.com/aikyaa__/";
+            if (await canLaunch(url)) {
+              await launch(url);
+            } else {
+              throw 'could not launch';
+            }
+          },
+          heroTag: "Insta-2",
+          backgroundColor: Colors.lightBlue,
+          mini: true,
+          child: Icon(Icons.link),
+        ),
+      ),
+    );
+    floatingButtons.add(
+      UnicornButton(
+        hasLabel: true,
+        labelText: "Insta-3",
+        currentButton: FloatingActionButton(
+          onPressed: () async {
+            const url = "https://www.instagram.com/keerthi__02/";
+            if (await canLaunch(url)) {
+              await launch(url);
+            } else {
+              throw 'could not launch';
+            }
+          },
+          heroTag: "Insta-3",
+          backgroundColor: Colors.greenAccent,
+          mini: true,
+          child: Icon(Icons.link),
+        ),
+      ),
+    );*/
