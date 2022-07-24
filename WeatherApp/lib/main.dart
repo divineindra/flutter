@@ -179,7 +179,7 @@ class DataService {
 
     final queryParameters = {
       'q': city,
-      'appid': 'a9111e3d40e486cd568da53553b71a5f',
+      'appid': 'Your app ID',
       'lang': 'en',
       'units': 'metric'
     };
